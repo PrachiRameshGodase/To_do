@@ -19,6 +19,11 @@ input{
   border-radius: 5px;
 
 }
+label{
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
 .btn-div{
   display: flex;
   gap: 30px;
@@ -35,11 +40,14 @@ button{
 
 }
 .lowerHalf{
+  display: flex;
+  justify-content: center;
   border: 1px solid rgb(238, 255, 0);
   margin-top: 20px;
   background-color: royalblue;
-  border-color: #7fffd4;
+  border-color:royalblue;
   border-radius: 12px;
+  width: 100%;
 
 }
 .delete-btn{
@@ -47,5 +55,24 @@ button{
 }
 .Add-btn{
   cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  button{
+      padding: 4px;
+      font-size: 16px;
+  }
+  input{
+    width: 120px;
+  }
+  .btn-div{
+    display: flex;
+    gap: 10px;
+    
+  }
+  label{
+    font-size: 18px;
+  }
+ 
+
 }
 

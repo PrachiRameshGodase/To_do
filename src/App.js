@@ -73,7 +73,7 @@ function App() {
     <h1>React Todo-List-App</h1>
     <div className='Upper-half'>
       <div className='inp-div'>
-      <label style={{color:"green",fontSize:"25px",fontWeight:"bold"}}>Title:   </label>
+      <label>Title:   </label>
         <input type='search' placeholder='Todo-list....' value={item} onChange={changeHandler}/>
       </div>
       <div className='btn-div'>

@@ -10,7 +10,7 @@ function TodoList(props) {
         itemlist.map((val)=>{
         return(
             <div  className='itemlist'key={val.id} >
-            <li>{val.itemname}</li>
+            <div >{val.itemname}</div>
             <div className='btn1'>
               <button className=' red' onClick={()=>deleteitem(val.id)}>Delete</button>
 
